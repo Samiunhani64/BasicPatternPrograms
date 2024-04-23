@@ -1,0 +1,13 @@
+n=int(input())
+spaces=n-1
+stars=1
+for i in range(n):
+    for j in range(spaces):
+         print(" ",end="")
+    for k in range(stars):
+        print("*",end="")  
+    spaces=spaces-1
+    print()
+    stars=stars+2
+    
+    
